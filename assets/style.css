@@ -37,16 +37,23 @@
 h1 {
   line-height: 1.6em;
   font-family: serif;
-  padding: 50px;
+  padding: 60px;
 }
 
 /* container for main content area */
 main {
-  width: 80%;
-  background-color: lightgrey;
+  width: 1500px;
+  /* background-color: lightgrey; */
   margin: auto;
   margin-top: 50px;
+}
 
+/* div created for background image */
+#background-image {
+  background-image: url("https://place-hold.it/1500x1000");
+  background-position: center;
+  height: 1000px;
+  width: 1500px;
 }
 
 /* container for main's nav */
@@ -80,3 +87,6 @@ footer {
   width: 100%;
   border-top: 5px solid #7e9a9a;
 }
+
+
+/* Add flexbox or media queries for phone fluidity */
