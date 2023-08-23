@@ -10,38 +10,57 @@
   border-bottom: 5px solid black;
   position: sticky;
   padding: 25px;
-  
 }
 
+/* List items within top banner */
 #top-banner li {
   display: inline;
-  padding: 5px;
-  margin: 2px;
+  padding: 2px;
+  margin: 12px;
+
 }
 
+/* Container for list items within top banner */
 #top-banner ul {
   float: right;
   margin-bottom: 5px;
 }
 
-/* Make hyperlinks appear white without underline effect */
+/* Make top-banner hyperlinks appear white without underline effect */
 #top-banner a {
   color: white;
   text-decoration: none;
 }
 
+/* Main title/quote on page */
 h1 {
   text-align: center;
+
 }
 
+/* container for main content area */
+main {
+  margin: 20px;
+}
+
+/* container for main's nav */
 #main-menu {
   text-align: center;
 }
 
+/* hyperlinks from main nav */
 #main-menu a {
   text-decoration: none;
 }
 
+/* Container for links in middle of page */
+#main-menu ul {
+  margin: 40px;
+}
+
+/* Links in middle of page to redirect to respective pages */
 #main-menu li {
   display: inline;
+  margin: 20px;
 }
+
