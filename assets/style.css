@@ -2,14 +2,15 @@
 * {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 /* top screen banner that holds the nav menu */
 #top-banner {
-  background-color: green;
-  border-bottom: 5px solid black;
+  background-color: #8ec3eb;
+  border-bottom: 5px solid #7e9a9a;
   position: sticky;
-  padding: 25px;
+  padding: 30px;
 }
 
 /* List items within top banner */
@@ -34,13 +35,18 @@
 
 /* Main title/quote on page */
 h1 {
-  text-align: center;
-
+  line-height: 1.6em;
+  font-family: serif;
+  padding: 50px;
 }
 
 /* container for main content area */
 main {
-  margin: 20px;
+  width: 80%;
+  background-color: lightgrey;
+  margin: auto;
+  margin-top: 50px;
+
 }
 
 /* container for main's nav */
@@ -55,7 +61,8 @@ main {
 
 /* Container for links in middle of page */
 #main-menu ul {
-  margin: 40px;
+  margin: 30px;
+  padding-bottom: 30px;
 }
 
 /* Links in middle of page to redirect to respective pages */
@@ -64,3 +71,12 @@ main {
   margin: 20px;
 }
 
+/* Footer / Bottom-banner */
+footer {
+  background-color: #8ec3eb;
+  padding: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 5px solid #7e9a9a;
+}
