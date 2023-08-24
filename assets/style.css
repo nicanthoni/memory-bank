@@ -7,7 +7,7 @@
 
 /* top screen banner that holds the nav menu */
 #top-banner {
-  background-color: #8ec3eb;
+  background-color: black;
   border-bottom: 5px solid #7e9a9a;
   position: sticky;
   padding: 30px;
@@ -33,12 +33,6 @@
   text-decoration: none;
 }
 
-/* Main title/quote on page */
-h1 {
-  line-height: 1.6em;
-  font-family: serif;
-  padding: 60px;
-}
 
 /* container for main content area */
 main {
@@ -48,12 +42,43 @@ main {
   margin-top: 50px;
 }
 
-/* div created for background image */
-#background-image {
-  background-image: url("https://place-hold.it/1500x1000");
+
+/* Collage of images as backdrop/main background */
+#body-image {
+  background-image: url(./images/page-background.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity:
+}
+
+
+/* div created for center of page image */
+#center-image {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  background-image: url(./images/photobooth.jpg);
   background-position: center;
   height: 1000px;
   width: 1500px;
+  background-size: contain;
+  /* background-image: url("https://place-hold.it/1500x1000"); */
+}
+
+/* Main title/quote on page */
+h1 {
+  position: absolute;
+  display: inline-block;
+  left: 70px;
+  line-height: 1.9em;
+  padding: 70px;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 120px;
+  color: aliceblue;
+  
 }
 
 /* container for main's nav */
@@ -80,7 +105,7 @@ main {
 
 /* Footer / Bottom-banner */
 footer {
-  background-color: #8ec3eb;
+  background-color: black;
   padding: 14px;
   position: fixed;
   bottom: 0;
