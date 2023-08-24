@@ -45,6 +45,29 @@ main {
   margin-top: 50px;
 }
 
+/* tooltip practices - can be deleted, just for practice */
+
+#css-tooltip {
+  cursor:pointer;
+  position: relative;
+  text-decoration: underline;
+}
+
+#css-tooltip:hover::after {
+  background-color: black;
+  border: 1px grey solid;
+  content: "And not the last!";
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-size: 90%;
+  padding: 12px;
+  left: 10px;
+  bottom: 35px;
+  min-width: 100px;
+
+
+}
 
 /* Collage of images as backdrop/main background */
 #body-image {
