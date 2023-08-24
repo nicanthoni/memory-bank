@@ -33,6 +33,9 @@
   text-decoration: none;
 }
 
+a:hover {
+  color:black;
+}
 
 /* container for main content area */
 main {
@@ -49,7 +52,7 @@ main {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  opacity:
+
 }
 
 
@@ -63,6 +66,7 @@ main {
   height: 1000px;
   width: 1500px;
   background-size: contain;
+  border: solid whitesmoke 3px;
   /* background-image: url("https://place-hold.it/1500x1000"); */
 }
 
@@ -81,28 +85,6 @@ h1 {
   
 }
 
-/* container for main's nav */
-#main-menu {
-  text-align: center;
-}
-
-/* hyperlinks from main nav */
-#main-menu a {
-  text-decoration: none;
-}
-
-/* Container for links in middle of page */
-#main-menu ul {
-  margin: 30px;
-  padding-bottom: 30px;
-}
-
-/* Links in middle of page to redirect to respective pages */
-#main-menu li {
-  display: inline;
-  margin: 20px;
-}
-
 /* Footer / Bottom-banner */
 footer {
   background-color: black;
@@ -111,6 +93,7 @@ footer {
   bottom: 0;
   width: 100%;
   border-top: 5px solid #7e9a9a;
+  color: white;
 }
 
 
